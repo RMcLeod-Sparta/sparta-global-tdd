@@ -11,8 +11,9 @@ class Fizzbuzz
       return i
     end
   end
+
 end
 
 (1..100).each do |n|
-puts Fizzbuzz.number(n)
+Fizzbuzz.number(n)
 end
